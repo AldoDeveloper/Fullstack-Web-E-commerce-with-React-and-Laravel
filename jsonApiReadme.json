@@ -1,0 +1,20 @@
+[
+     {
+          "ket" : "Show Advertisment Produk",
+          "methode"  : {
+              "type" :{
+                "opsi" : ["GET", "POST"],
+                "GET"  :{
+                    "query" : "slice",
+                    "var"   : "integer"
+                 },
+                 "POST" : {
+                     "body":{
+                         "find": "object",
+                         "find.id" : "integer"
+                     }
+                 }
+              }
+          }
+     }
+]
